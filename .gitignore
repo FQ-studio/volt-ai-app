@@ -1,0 +1,9 @@
+/target
+*.so
+*.rlib
+*.o
+*.db
+.DS_Store
+android/.gradle
+android/build
+android/app/build

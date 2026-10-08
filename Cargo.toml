@@ -1,0 +1,8 @@
+[package]
+name = "volt-core-cli-X"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+volt-core = { path = "../volt-core" }
+
