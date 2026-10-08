@@ -20,6 +20,9 @@ jobs:
         distribution: 'temurin'
         java-version: '17'
 
+    - name: Install Android SDK / Build Tools via Gradle Global
+      uses: gradle/actions/setup-gradle@v3
+
     - name: Build Android Release APK
       run: |
         cd android
